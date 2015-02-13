@@ -1,0 +1,3 @@
+ALTER TABLE person RENAME TO peoples;
+ALTER TABLE peoples ADD COLUMN hatred INTEGER;
+ALTER TABLE peoples RENAME TO person;
